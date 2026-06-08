@@ -10,10 +10,13 @@
 
 ## 1.1 Scenario A: Technical Explanation
 ###Goal: Explain blockchain to a 10-year-old.
+
 **Version 1 Prompt**
 Explain blockchain to a 10-year-old.
+
 **Version 2 Prompt**
 Explain blockchain to a 10-year-old in very simple words. Explain it in a way that can be understood after reading it once.
+
 **Version 3 Prompt**
 Explain blockchain to a 10-year-old in very simple words using a simple real-life example and analogy. Explain it in such a way that if required they can further explain it to someone else too.
 
