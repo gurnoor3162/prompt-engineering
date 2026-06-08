@@ -181,7 +181,102 @@ Low temperature is useful when accuracy and consistency are important, such as w
 
 ## 3.1 Chain-of-Thought Prompting
 
+### Without Chain-of-Thought
+What is the average speed of a train that travels 120 km in 2 hours, stops for 30 minutes, and then travels another 90 km in 1.5 hours? Give only the final answer.
+*Output*
+52.5 km/h
+
+### With Chain-of-Thought
+What is the average speed of a train that travels 120 km in 2 hours, stops for 30 minutes, and then travels another 90 km in 1.5 hours? Show all calculations and explain your reasoning.
+*Output*
+To find the average speed, use the formula:
+
+Average Speed=
+Total Time
+Total Distance
+	​
+
+Step 1: Calculate the total distance
+First part: 120 km
+Second part: 90 km
+Total Distance=120+90=210 km
+Step 2: Calculate the total time
+Travel time for first part: 2 hours
+Stop time: 30 minutes = 0.5 hours
+Travel time for second part: 1.5 hours
+Total Time=2+0.5+1.5=4 hours
+Step 3: Calculate the average speed
+Average Speed=
+4
+210
+	​
+
+=52.5 km/h
+Final Answer  52.5 km/h
+
+*Comparison*
+The outputs differed in the level of detail provided. The first prompt returned only the final answer, while the second prompt showed the calculations and reasoning used to reach the answer. Chain-of-thought prompting helps with complex reasoning because it breaks a problem into smaller steps, making the process easier to follow and verify. One limitation I observed is that chain-of-thought responses are longer and can sometimes include unnecessary details for simple problems.
+
 ## 3.2 Few-Shot Prompting
+
+*Zero-Shot Attempt*
+
+*Prompt*
+Classify each of the following reviews as Positive, Negative, or Neutral.
+
+1. The product arrived damaged and customer service was unhelpful.
+2. Works as expected, nothing special but does the job.
+3. Absolutely love this! Best purchase I've made all year!
+4. The quality is okay but slightly overpriced for what you get.
+5. Terrible experience, would not recommend to anyone.
+
+*Output*
+1. **Negative** — The product arrived damaged and customer service was unhelpful.
+2. **Neutral** — Works as expected, nothing special but does the job.
+3. **Positive** — Absolutely love this! Best purchase I've made all year!
+4. **Neutral** — The quality is okay but slightly overpriced for what you get.
+5. **Negative** — Terrible experience, would not recommend to anyone.
+
+
+*Few-Shot Attempt*
+*Prompt*
+Classify customer reviews as Positive, Negative, or Neutral.
+
+Review: "This product exceeded my expectations!"
+Sentiment: Positive
+
+Review: "Completely broke after one week of use."
+Sentiment: Negative
+
+Review: "It's fine, does what it says on the box."
+Sentiment: Neutral
+
+Now classify these reviews:
+
+1. The product arrived damaged and customer service was unhelpful.
+2. Works as expected, nothing special but does the job.
+3. Absolutely love this! Best purchase I've made all year!
+4. The quality is okay but slightly overpriced for what you get.
+5. Terrible experience, would not recommend to anyone.
+
+*Output*
+1. **Negative** — The product arrived damaged and customer service was unhelpful.
+2. **Neutral** — Works as expected, nothing special but does the job.
+3. **Positive** — Absolutely love this! Best purchase I've made all year!
+4. **Neutral** — The quality is okay but slightly overpriced for what you get.
+5. **Negative** — Terrible experience, would not recommend to anyone.
+
+*Table*
+| Review # | Zero-Shot Result | Few-Shot Result | Correct Label | Improved? |
+|-----------|-----------------|----------------|--------------|-----------|
+| 1 | Negative | Negative | Negative | No |
+| 2 | Neutral | Neutral | Neutral | No |
+| 3 | Positive | Positive | Positive | No |
+| 4 | Neutral | Neutral | Neutral | No |
+| 5 | Negative | Negative | Negative | No |
+
+*Analysis*
+Few-shot prompting is most useful when tasks are complex or require a specific output format. The examples help the model understand the expected pattern and improve consistency. In this case, both zero-shot and few-shot prompting produced the same results because the reviews were straightforward and easy to classify.
 
 ---
 
