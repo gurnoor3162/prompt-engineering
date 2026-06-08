@@ -1,7 +1,9 @@
 # Prompt Engineering Portfolio
 
 **Name:** Gurnoor Kaur
+
 **Date:** June 8, 2026
+
 **LLM Used:** ChatGPT (GPT-5.5)
 
 ---
