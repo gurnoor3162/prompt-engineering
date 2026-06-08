@@ -153,8 +153,27 @@ Role assignment and context setting significantly improved the quality of the ou
 # Part 2: Temperature & Parameter Control
 
 ## 2.1 Temperature Experimentation
+**Low**
+Write the opening 2-3 sentences of a short story about a mysterious door that suddenly appears in a school hallway. Be precise, factual, and consistent.
+
+*Output*
+At 8:05 a.m. on Monday, students arriving for first period noticed a wooden door in the east hallway of Westbrook Middle School. The door stood between two classroom entrances where no door had existed the previous day. By lunchtime, no teacher or maintenance worker could explain how it had appeared.
+
+**Medium**
+Write the opening 2-3 sentences of a short story about a mysterious door that suddenly appears in a school hallway.
+
+*Output*
+When Maya arrived at school on Tuesday morning, she stopped in the middle of the hallway. A tall blue door stood between two lockers where there had only been a blank wall the day before. No one knew where it had come from, and no one had seen it appear.
+
+**High**
+Write the opening 2-3 sentences of a short story about a mysterious door that suddenly appears in a school hallway. Be highly creative, imaginative, and explore unusual ideas.
+
+*Output*
+On the first day it appeared, the door was busy pretending to be a patch of sunlight. By lunchtime, it had given up the disguise and settled into the hallway between the science lab and the trophy case, humming softly in a language that sounded like forgotten dreams. The brass handle was warm to the touch, as if someone on the other side had just let go.
+
 
 ## 2.2 Analysis & Recommendations
+Low temperature is useful when accuracy and consistency are important, such as writing technical documentation or answering factual questions. Another use case is professional communication, where clear and predictable responses are preferred. High temperature is useful for creative writing and brainstorming because it generates more imaginative and unique ideas. Another use case is marketing and advertising, where originality helps attract attention. For this task, the high temperature setting worked best because it created the most engaging and imaginative story opening while still maintaining coherence.
 
 ---
 
