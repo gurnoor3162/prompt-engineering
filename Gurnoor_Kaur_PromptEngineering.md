@@ -9,7 +9,7 @@
 # Part 1: Prompt Design & Iteration
 
 ## 1.1 Scenario A: Technical Explanation
-###Goal: Explain blockchain to a 10-year-old.
+### Goal: Explain blockchain to a 10-year-old.
 
 **Version 1 Prompt**
 Explain blockchain to a 10-year-old.
@@ -20,7 +20,7 @@ Explain blockchain to a 10-year-old in very simple words. Explain it in a way th
 **Version 3 Prompt**
 Explain blockchain to a 10-year-old in very simple words using a simple real-life example and analogy. Explain it in such a way that if required they can further explain it to someone else too.
 
-###Final Output
+### Final Output
 Imagine a classroom with 30 students.
 
 One day, the teacher puts a big chart on the wall to keep track of sticker trades.
