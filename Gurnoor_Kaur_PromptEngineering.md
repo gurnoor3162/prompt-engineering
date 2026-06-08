@@ -96,7 +96,27 @@ This version strikes a professional balance: it clearly declines the offer, expr
 
 
 ## 1.1 Scenario C: Creative Content
+### Goal: Create a marketing tagline for an eco-friendly water bottle brand.
 
+**Version 1 Prompt**
+Create a marketing tagline for an eco-friendly water bottle brand.
+
+**Version 2 Prompt**
+Create a marketing tagline for an eco-friendly water bottle brand whose target audience is environmentally conscious youth.
+
+**Version 3 Prompt**
+You are a professional marketing copywriter. Create five short, memorable, and modern taglines for an eco-friendly water bottle brand targeting environmentally conscious youth. The taglines should promote sustainability without sounding preachy.
+
+### Final Output
+Here are five short, modern, and memorable taglines designed for environmentally conscious youth:
+
+Sip Green. Live Clean.
+Refill the Future.
+Hydrate with Impact.
+Less Waste. More Adventure.
+Good Vibes. Better Planet.
+
+These taglines keep the focus on sustainability while staying upbeat, relatable, and non-preachy.
 
 
 ## 1.2 Iteration Documentation
@@ -118,8 +138,15 @@ This version strikes a professional balance: it clearly declines the offer, expr
 | V3 | Added role assignment (professional career advisor), gratitude, explanation of choosing another opportunity, and future relationship focus. | Produced a more polished, realistic, and relationship-building response aligned with professional communication standards. |
 
 ### Scenaio C
+| Version | What Changed | Why This Improved the Output |
+|----------|----------|----------|
+| V1 | Requested a marketing tagline for an eco-friendly water bottle brand. | Established a baseline response and general branding direction. |
+| V2 | Added a specific target audience: environmentally conscious youth. | Made the tagline more relevant and appealing to the intended audience. |
+| V3 | Added role assignment (professional marketing copywriter), requested five taglines, and specified a modern, memorable, and non-preachy style. | Produced more creative, targeted, and market-ready taglines that better aligned with the brand's goals and audience. |
+
 
 ## 1.3 Role and Context Analysis
+Role assignment and context setting significantly improved the quality of the outputs. In Scenario B, assigning the role of a professional career advisor helped generate a more polished and professional email with an appropriate tone. In Scenario C, assigning the role of a professional marketing copywriter resulted in more creative and audience-focused taglines. Providing context, such as the target audience and desired communication style, reduced ambiguity and helped the model generate responses that were more relevant, effective, and aligned with the intended goals.
 
 ---
 
