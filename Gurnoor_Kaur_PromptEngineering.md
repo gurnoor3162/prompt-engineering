@@ -59,7 +59,11 @@ A super-short explanation a 10-year-old can tell someone else
 
 If they remember just that one sentence, they have understood the main idea of blockchain.
 
-
+| Version | What Changed | Why This Improved the Output |
+|----------|----------|----------|
+| V1 | Basic prompt requesting an explanation. | Established a baseline response. |
+| V2 | Added requirement for simple language and easy understanding. | Made the explanation easier for a child to understand. |
+| V3 | Added a real-life example and analogy. | Produced a clearer and more engaging explanation. |
 
 ## 1.1 Scenario B: Professional Email
 
